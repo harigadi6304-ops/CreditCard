@@ -51,7 +51,7 @@ const CreditCard: React.FC = () => {
             ) : (
               <h1 className="text-[white] ">CARD NUMBER</h1>
             )}
-            <h1 className="text-white">CARDHOLDER NAME</h1>
+            <h1 className="text-white">CARD HOLDER NAME</h1>
             {formData?.cardHolderName && (
               <h3 className="text-[white]">{formData.cardHolderName}</h3>
             )}{" "}
